@@ -33,3 +33,8 @@ npm run build
 ```sh
 npm run lint
 ```
+
+```javascript
+// 管理员账号：admin
+// 管理员密码：123456
+```

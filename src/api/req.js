@@ -28,6 +28,7 @@ my_req.interceptors.request.use(config => {
 
 // 配置响应拦截
 my_req.interceptors.response.use(res => {
+  console.log(res);
   // 关闭进度条
   nprogress.done()
   // 定义登录成功状态
